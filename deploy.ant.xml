@@ -129,12 +129,13 @@
   
   <property name="dcm.build.version" value="1"/>
   <property name="dcm.dir" value="D:\ANT\datapower-configuration-manager-master\dcm"/>
- 
+ <property name="upload-dir.from" value="D:\sample_mpg\dp-aux"/>
    <property name="service.name" value="sample_mpg"/>
    <property name="service.type" value="MultiProtocolGateway"/>
   <property name= "checkpoint.name" value="sample1"/>
    <property name="cert.file" value="temporary:///common-sscert.pem"/>
   <property name="log.level" value="debug"/>
+  
    <property name="upload-dir.from" value="D:\ANT\datapower-configuration-manager-master\dcm\build\com\ibm"/>
 	  <property name="upload-dir.to" value="local:///sample"/>
 	  <property name="host-alias.name" value="datapower"/>
