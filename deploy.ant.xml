@@ -85,7 +85,7 @@
 		  <property name="host" value="172.17.11.158"/>
 		 <property name="uid" value="pavan"/>
 		 <property name="pwd" value="Welcome@123"/>
-		 <property name="domain" value="DP_DCM"/>
+		 
  
   
   <!-- Ensure we know where DCM is located. -->
@@ -95,7 +95,7 @@
   
   <!-- Provide reasonable defaults for some optional properties. -->
   <property name="dcm.jar" location="${dcm.dir}/dist/dcm.${dcm.build.version}.jar"/>
-  <property name="work.dir" location="./tmp"/>
+  <property name="work.dir" location="D:\ANT\datapower-configuration-manager-master\dcm\tmp"/>
   <property name="schema.dir" location="${dcm.dir}/schemas"/>
   <property name="capturesoma" value=""/>
   <property name="dumpinput" value="false"/>
