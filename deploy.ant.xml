@@ -85,7 +85,7 @@
 		  <property name="host" value="172.17.11.158"/>
 		 <property name="uid" value="pavan"/>
 		 <property name="pwd" value="Welcome@123"/>
-		 
+		 <property name="domain" value="Miracle_DCM"/>
  
   
   <!-- Ensure we know where DCM is located. -->
