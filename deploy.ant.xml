@@ -81,7 +81,7 @@
    <property name="service.name" value="sample_mpg"/>
    <property name="service.type" value="MultiProtocolGateway"/>
   <property name="import.file" value="D:\sample_mpg\sample_mpg.zip"/>
-   <property name="deployment.policy.object" value="DCM_Demo"/>
+   <property name="deployment.policy.object" value="none"/>
   
 		  <property name="host" value="172.17.11.158"/>
 		 <property name="uid" value="pavan"/>
