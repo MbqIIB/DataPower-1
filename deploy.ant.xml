@@ -230,7 +230,7 @@
         In case of an error it throws an exception or prints the SOAP response and terminates Ant.
       -->
       <importConfigDPO host="${host}" port="${port}" uid="${uid}" pwd="${pwd}" domain="${domain}"
-        inputfile="${import.file}" dpo="${deployment.policy.object}"
+        inputfile="${import.file}" 
         dcmdir="${dcm.dir}" workdir="${work.dir}" dumpinput="${dumpinput}" dumpoutput="${dumpoutput}" capturesoma="${capturesoma}"/>
       
     </sequential>
