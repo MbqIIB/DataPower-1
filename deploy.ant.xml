@@ -83,7 +83,7 @@
   <property name="import.file" value="D:\sample_mpg\sample_mpg.zip"/>
    <property name="deployment.policy.object" value="DCM_Demo"/>
    <property name="port" value="9090"/>
-   <property name="firmware.version" value="IDG.7.5.0.0"
+   <property name="firmware.version" value="IDG.7.5.0.0"/>
 		  <property name="host" value="172.17.11.158"/>
 		 <property name="uid" value="pavan"/>
 		 <property name="pwd" value="Welcome@123"/>
