@@ -78,9 +78,9 @@
   
   <property name="dcm.build.version" value="1"/>
   <property name="dcm.dir" value="D:\ANT\datapower-configuration-manager-master\dcm"/>
-   <property name="service.name" value="Global_Weather.zip"/>
+   <property name="service.name" value="WeatherDetailsWSP.zip"/>
    <property name="service.type" value="Web Service proxy"/>
-  <property name="import.file" value="D:\sample_mpg\Global_Weather.zip"/>
+  <property name="import.file" value="D:\sample_mpg\WeatherDetailsWSP.zip"/>
    <property name="deployment.policy.object" value="DCM_Demo"/>
   
 		  <property name="host" value="172.17.11.158"/>
