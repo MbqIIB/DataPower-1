@@ -103,7 +103,37 @@
   <property name="dumpoutput" value="false"/>
    <property name="mgmt.method" value="/service/mgmt/current"/>
   <property name="reboot.mode" value="reboot"/>
-  
+  <build>
+	  <plugin>
+                <groupId>com.lazerycode.jmeter</groupId>
+                <artifactId>jmeter-maven-plugin</artifactId>
+                <version>1.8.1</version>
+                <executions>
+                    <execution>
+                        <id>jmeter-tests</id>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>jmeter</goal>
+                        </goals>
+                        <configuration>
+                            <skipTests>${skipTests}</skipTests> <!-- default true -->
+                            <ignoreResultFailures>true</ignoreResultFailures>
+                            <suppressJMeterOutput>false</suppressJMeterOutput>
+                                <propertiesUser>
+                                    <testData>order_test.csv</testData>
+                                    <threadNum>6</threadNum>
+                                    <rampUpPeriodSecs>5</rampUpPeriodSecs>
+                                    <loopCount>1</loopCount>
+                                </propertiesUser>
+                        </configuration>
+                    </execution>
+                </executions>
+                <configuration>
+                    <testFilesDirectory>tests</testFilesDirectory>
+                    <testResultsTimestamp>false</testResultsTimestamp>
+                </configuration>
+                </plugin>
+	</build>
   <!--
     +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
       Provide necessary definitions
