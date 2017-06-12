@@ -1,0 +1,47 @@
+{
+	"id": "c4e5634e-6b07-e4a3-6cf1-8842d5f1261e",
+	"name": "PMET",
+	"requests": [
+		{
+			"id": "96d328e7-0b3f-0e8b-0d4a-92111baa9d0f",
+			"headers": "Content-Type: text/xml\nSOAPAction: http://www.webserviceX.NET/GetCitiesByCountry\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "text/xml",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "SOAPAction",
+					"value": "http://www.webserviceX.NET/GetCitiesByCountry",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://172.17.11.158:1467/GetCitiesByCountry",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "c4e5634e-6b07-e4a3-6cf1-8842d5f1261e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://172.17.11.158:1467/GetCitiesByCountry",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1497280737408,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:web=\"http://www.webserviceX.NET\">\r\n   <soapenv:Header/>\r\n   <soapenv:Body>\r\n      <web:GetCitiesByCountry>\r\n         <web:CountryName>United States</web:CountryName>\r\n      </web:GetCitiesByCountry>\r\n   </soapenv:Body>\r\n</soapenv:Envelope>"
+		}
+	],
+	"order": [
+		"96d328e7-0b3f-0e8b-0d4a-92111baa9d0f"
+	],
+	"timestamp": 1497280737408
+}
