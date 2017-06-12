@@ -57,7 +57,7 @@
               <idleTime>true</idleTime>
             </value>
           </objProp>
-          <stringProp name="filename">C:\Users\miracle\Desktop\deltapoc\WeatherDetailsWSP.jtl</stringProp>
+          <stringProp name="filename">C:\Users\miracle\.jenkins\workspace\DP_DCM_Automation\deltapoc\WeatherDetailsWSP.jtl</stringProp>
         </ResultCollector>
         <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request" enabled="true">
